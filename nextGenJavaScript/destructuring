@@ -1,0 +1,13 @@
+Destructuring
+
+Easily extract array elements or object properties and store them in variables
+
+Example:
+    const [a,b] = ['Venki', 'Munna'];
+
+    console.log(a);  // Venki
+    console.log(b);  // Munna
+
+    const {name} = {name:'Venki', age: 26};
+    console.log(name); // Venki
+    console.log(age);  // undefined

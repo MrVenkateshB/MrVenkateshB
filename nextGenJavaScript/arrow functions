@@ -1,0 +1,9 @@
+When use this keyword in arrow functions it will keep the context without changing it.
+Example:
+ const printName = name => {
+     console.log(name);
+ }
+
+ printName('Venki');
+
+const multiply = num => num * 2; // no need of return statement for single line of execution

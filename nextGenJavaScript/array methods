@@ -1,0 +1,15 @@
+Array Methods
+
+filter -- 
+map -- returns new array
+reduce
+find
+forEach
+
+
+const nums = [1,2,3];
+
+const dbNum = nums.map(num => {
+    return num * 2;
+});
+console.log(dbNum);  // [2,4,6]

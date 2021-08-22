@@ -1,0 +1,44 @@
+They are blueprints to Objects
+
+Class is instantiated with new keyword
+
+Class helps in inheritance
+
+Example:
+    class Person {
+        constructor() {
+            this.name = 'Venki';
+        }
+        printName() {
+            console.log(this.name);
+        }
+    }
+
+    const person = new Person();
+    person.printName();  // prints 'Venki'
+
+    class Human {
+        constructor() {
+            this.gender = "male";
+        }
+        printGender() {
+            console.log(this.gender);
+        }
+    }
+
+ class Person extends Human {
+        constructor() {
+            super();   // to initialise the parent class Human
+            this.name = 'Venki';
+        }
+        printName() {
+            console.log(this.name);
+        }
+    }
+
+    const person = new Person();
+    person.printGender(); // prints "male"
+
+    +++++++++++++++++++++++++++++++++++++++++++
+    ** Properties are variables attached to Class/ Objects
+    ** Methods are functions attached to Class / Objects
